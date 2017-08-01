@@ -23,7 +23,7 @@
 \newcommand{\subtitlesection}[2]{
 	\subsubsection{#1}\vspace{-5pt}
 	\textit{#2}\vspace{5pt}\par
-	} 
+	}
 
 % Fancy table of contents
 %
@@ -35,6 +35,14 @@
 %	2: subsections (default)
 %	3: subsubsections
 %
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 \usepackage{xparse}
 \usepackage[toc]{multitoc}
 \usepackage[titles]{tocloft}
